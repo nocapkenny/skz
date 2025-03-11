@@ -1,0 +1,94 @@
+@use "../../assets/styles/vars" as *;
+
+.events {
+  padding-bottom: 180px;
+  &__title {
+    margin-bottom: 0;
+    &::after {
+      left: 310px;
+    }
+  }
+  &__inner {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1590px;
+    padding: 0 20px;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  &__box {
+    background-color: $white-bg;
+    min-width: 512px;
+    padding-bottom: 30px;
+    height: 520px;
+    overflow-y: auto;
+    scrollbar-color: $black $gray-bg;
+    margin-top: 30px;
+    &::-webkit-scrollbar {
+      width: 3px;
+    }
+    &::-webkit-scrollbar-track {
+      background: $gray-bg;
+      border-radius: 4px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: $black;
+      border-radius: 4px;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+    &::-webkit-scrollbar-button {
+      display: none;
+    }
+  }
+  &__box-months {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 50px;
+  }
+  &__box-month {
+    font-weight: 600;
+    border-bottom: 2px solid $black;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+  }
+  &__box-list {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  &__box-item span {
+    color: $gray;
+  }
+  &__gallery {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr 1fr;
+    max-width: 698px;
+    height: 520px;
+  }
+  &__gallery-item {
+    height: auto;
+  }
+}
+.item-1 {
+  grid-row: 1 / 2;
+  grid-column: 1 / 3;
+  align-self: flex-end;
+  margin-left: 40px;
+}
+.item-2 {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  justify-self: flex-end;
+}
+.item-3 {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  justify-self: flex-end;
+}
+.item-4 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}

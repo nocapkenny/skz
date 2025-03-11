@@ -1,0 +1,43 @@
+@use "../../assets/styles/vars" as *;
+
+.profile {
+  &__title {
+    &::after {
+      left: 320px;
+    }
+  }
+  &__inner {
+    max-width: 1480px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+  }
+  &__list-box {
+    background-color: $bluora;
+    position: relative;
+    width: 580px;
+    height: 684px;
+  }
+  &__list-img {
+    position: absolute;
+    width: 600px;
+    height: 724px;
+    left: 10%;
+    top: 10%;
+  }
+  &__list-text {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+    transform: rotate(-90deg);
+    z-index: 999;
+    position: absolute;
+    transform-origin: left;
+    left: 40px;
+    bottom: 0;
+  }
+}

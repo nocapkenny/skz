@@ -1,0 +1,36 @@
+@use "../../assets/styles/vars" as *;
+.header {
+  height: 100vh;
+  background-image: url("../../assets/images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu {
+  display: flex;
+  padding-left: 70px;
+  padding-top: 45px;
+  gap: 60px;
+  align-items: center;
+  &__item {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 20px;
+      left: 94px;
+      top: 15px;
+      background-color: $black;
+    }
+    &:nth-child(1)::after {
+      top: 28px;
+      left: 114px;
+    }
+    &:nth-child(3)::after {
+      left: 150px;
+    }
+    &:last-child::after {
+      width: 328px;
+    }
+  }
+}
