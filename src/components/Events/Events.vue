@@ -5,53 +5,57 @@
       <div class="events__inner">
         <div class="events__box">
           <div class="events__box-months">
-            <h3 class="events__box-month">February 2025</h3>
+            <h3 class="events__box-month">MARCH 2025</h3>
             <ul class="events__box-list">
               <li class="events__box-item">
-                <span>8 SAT</span> <br />
-                HAPPY I.N DAY
+                <span>20 THU</span> <br />
+                HAPPY HYUNJIN DAY
               </li>
               <li class="events__box-item">
-                <span>8 SAT</span> <br />
-                HAPPY I.N DAY
+                <span>27 THU</span> <br />
+                Stray Kids World Tour &lt;dominATE SANTIAGO&gt;
               </li>
               <li class="events__box-item">
-                <span>8 SAT</span> <br />
-                HAPPY I.N DAY
+                <span>28 FRI</span> <br />
+                Stray Kids World Tour &lt;dominATE SANTIAGO&gt;
               </li>
             </ul>
           </div>
           <div class="events__box-months">
-            <h3 class="events__box-month">January 2025</h3>
+            <h3 class="events__box-month">FEBRUARY 2025</h3>
             <ul class="events__box-list">
               <li class="events__box-item">
                 <span>8 SAT</span> <br />
                 HAPPY I.N DAY
               </li>
               <li class="events__box-item">
-                <span>8 SAT</span> <br />
-                HAPPY I.N DAY
+                <span>14 FRI</span> <br />
+                Stray Kids 5TH FANMEETING «SKZ 5`CLOCK»
               </li>
               <li class="events__box-item">
-                <span>8 SAT</span> <br />
-                HAPPY I.N DAY
+                <span>15 SAT</span> <br />
+                Stray Kids 5TH FANMEETING «SKZ 5`CLOCK»
+              </li>
+              <li class="events__box-item">
+                <span>16 SUN</span> <br />
+                Stray Kids 5TH FANMEETING «SKZ 5`CLOCK»
               </li>
             </ul>
           </div>
           <div class="events__box-months">
-            <h3 class="events__box-month">December 2024</h3>
+            <h3 class="events__box-month">JANUARY 2025</h3>
             <ul class="events__box-list">
               <li class="events__box-item">
-                <span>8 SAT</span> <br />
-                HAPPY I.N DAY
+                <span>18 SAT</span> <br />
+                Stray Kids World Tour &lt;dominATE SANTIAGO&gt;
               </li>
               <li class="events__box-item">
-                <span>8 SAT</span> <br />
-                HAPPY I.N DAY
+                <span>19 SUN</span> <br />
+                Stray Kids World Tour &lt;dominATE SANTIAGO&gt;
               </li>
               <li class="events__box-item">
-                <span>8 SAT</span> <br />
-                HAPPY I.N DAY
+                <span>30 THU</span> <br />
+                2024 MBC Music Festival
               </li>
             </ul>
           </div>
